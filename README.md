@@ -3,6 +3,9 @@
 Algorítimo que realiza buscas de CEP's brasileiros com base em Web Site de 
 consulta.
 
+Linguagens utilizadas : php, html, javascript.
+Técnicas utilizadas : Jquery, Ajax.
+
 1º Versão lançada em 16/11/2015
    * Sem notas de atualização, algoritimo funcionando através da obtenção da
      pagina html do site : http://www.qualocep.com/busca-cep retirando o
