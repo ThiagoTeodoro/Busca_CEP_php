@@ -1,25 +1,25 @@
 # Busca_CEP_php
 
-Algor√≠timo que realiza buscas de CEP's brasileiros com base em Web Site de 
+AlgorÌtimo que realiza buscas de CEP's brasileiros com base em Web Site de 
 consulta.
 
 Linguagens utilizadas : php, html, javascript.
-T√©cnicas utilizadas : Jquery, Ajax.
+TÈcnicas utilizadas : Jquery, Ajax.
 
-Vers√£o 1.0 lan√ßada em 16/11/2015
-   * Sem notas de atualiza√ß√£o, algoritimo funcionando atrav√©s da obten√ß√£o da
+Vers„o 1.0 lanÁada em 16/11/2015
+   * Sem notas de atualizaÁ„o, algoritimo funcionando atravÈs da obtenÁ„o da
      pagina html do site : http://www.qualocep.com/busca-cep retirando o
-     conte√∫do da tag <title></title> trabalhando o  mesmo, e devolvendo o
-     endere√ßo obtido a partir do CEP informado.
-     O algor√≠timo funciona a base da leitura da p√°gina, identifica√ß√£o do
-     conte√∫do alvo, tratamento e retorno dos endere√ßos.
+     conte˙do da tag <title></title> trabalhando o  mesmo, e devolvendo o
+     endereÁo obtido a partir do CEP informado.
+     O algorÌtimo funciona a base da leitura da p·gina, identificaÁ„o do
+     conte˙do alvo, tratamento e retorno dos endereÁos.
 	 
-Vers√£o 1.1 lan√ßada em 17/11/2015
-    * Corre√ß√£o de funcionamento do algor√≠timo.
-      O Algor√≠timo n√£o estava realizando a retirada do espa√ßo que existe entre
-      a v√≠rgula e os dados de endere√ßo obtidos. 
-      Esse erro foi corrigido e agora o Algor√≠timo fornece os dados sem o espa√ßo 
-      no in√≠cio da Rua, Estado e UF.
+Vers„o 1.1 lanÁada em 17/11/2015
+    * CorreÁ„o de funcionamento do algorÌtimo.
+      O AlgorÌtimo n„o estava realizando a retirada do espaÁo que existe entre
+      a vÌrgula e os dados de endereÁo obtidos. 
+      Esse erro foi corrigido e agora o AlgorÌtimo fornece os dados sem o espaÁo 
+      no inÌcio da Rua, Estado e UF.
 
 
 @Autor Thiago Teodoro Rodrigues.
