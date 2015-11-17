@@ -304,13 +304,46 @@ class Busca_CEP {
                     //A ORDEM DE ATRIBUIÇÃO AQUI TEM QUE SER ESSA, A ORDEM TEM IMPORTANCIA
 
                     //Atribuindo Dados da Rua para $this->Rua.
-                    $this->Rua = $Dados[0];
+                        /*
+                         *  O Primeiro Carácter depois da Virgula é um espaço então 
+                         *  eu vou fazer um substring aqui pulando a posição 0 
+                         *  ou seja pulando o espaço e ir até o final da palavra
+                         *  que o próprio tamanho da palavra -1 por que o PHP 
+                         *  trabalha com numério de posições que eu quero cortar
+                         *  apartir de um ínicio. Para pular a posição 0 eu vou
+                         *  começar na posição 1 = ) e vou até o tamanho da
+                         *  da palavra -1, o -1 é por que eu pulei uma letra 
+                         *  pulei o espaço que estava na 0.
+                         */
+                        $this->Rua = substr($Dados[0], 1, (strlen($Dados[0]) -1) );
 
                     //Atribuindo Dados da Cidade para $this->Cidade.
-                    $this->Cidade = $Dados[1];
+                        /*
+                         *  O Primeiro Carácter depois da Virgula é um espaço então 
+                         *  eu vou fazer um substring aqui pulando a posição 0 
+                         *  ou seja pulando o espaço e ir até o final da palavra
+                         *  que o próprio tamanho da palavra -1 por que o PHP 
+                         *  trabalha com numério de posições que eu quero cortar
+                         *  apartir de um ínicio. Para pular a posição 0 eu vou
+                         *  começar na posição 1 = ) e vou até o tamanho da
+                         *  da palavra -1, o -1 é por que eu pulei uma letra 
+                         *  pulei o espaço que estava na 0.
+                         */
+                        $this->Cidade = substr($Dados[1], 1, (strlen($Dados[1]) -1) );
 
-                    //Atribuindo Dados da UF para $this_>UF.
-                    $this->UF = $Dados[2];
+                    //Atribuindo Dados da UF para $this->UF.
+                        /*
+                         *  O Primeiro Carácter depois da Virgula é um espaço então 
+                         *  eu vou fazer um substring aqui pulando a posição 0 
+                         *  ou seja pulando o espaço e ir até o final da palavra
+                         *  que o próprio tamanho da palavra -1 por que o PHP 
+                         *  trabalha com numério de posições que eu quero cortar
+                         *  apartir de um ínicio. Para pular a posição 0 eu vou
+                         *  começar na posição 1 = ) e vou até o tamanho da
+                         *  da palavra -1, o -1 é por que eu pulei uma letra 
+                         *  pulei o espaço que estava na 0.
+                         */
+                        $this->UF = substr($Dados[2], 1, (strlen($Dados[2]) -1) );
 
                     /*
                      * Tratando o CEP
