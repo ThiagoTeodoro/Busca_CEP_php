@@ -15,10 +15,11 @@ Versão 1.0 lançada em 16/11/2015
      conteúdo alvo, tratamento e retorno dos endereços.
 	 
 Versão 1.1 lançada em 17/11/2015
-	* Correção de funcionamento do algorítimo.
-	  O Algorítimo não estava realizando a retirada do espaço que existe entre
-	  a vírgula e os dados de endereço obtidos. 
+    * Correção de funcionamento do algorítimo.
+      O Algorítimo não estava realizando a retirada do espaço que existe entre
+      a vírgula e os dados de endereço obtidos. 
       Esse erro foi corrigido e agora o Algorítimo fornece os dados sem o espaço 
       no início da Rua, Estado e UF.
+
 
 @Autor Thiago Teodoro Rodrigues.
