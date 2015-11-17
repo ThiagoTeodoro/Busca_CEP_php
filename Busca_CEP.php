@@ -33,7 +33,7 @@
  * 
  * 
  * @author Thiago Teodoro Rodrigues.
- * @version 1.0 - 15/11/2015
+ * @version 1.1 - 17/11/2015
  * 
  */
 
